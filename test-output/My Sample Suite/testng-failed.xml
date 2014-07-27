@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [My Sample Suite]">
+  <test name="Sample Test Case(failed)">
+    <classes>
+      <class name="testcases.SampleTest">
+        <methods>
+          <include name="testCasePasswordChange"/>
+          <include name="testCaseRegister"/>
+          <include name="testCaseLoginTest"/>
+        </methods>
+      </class> <!-- testcases.SampleTest -->
+    </classes>
+  </test> <!-- Sample Test Case(failed) -->
+  <test name="Uploading Pic(failed)">
+    <classes>
+      <class name="testcases.UploadPicTest">
+        <methods>
+          <include name="uploadPic"/>
+        </methods>
+      </class> <!-- testcases.UploadPicTest -->
+    </classes>
+  </test> <!-- Uploading Pic(failed) -->
+</suite> <!-- Failed suite [My Sample Suite] -->
