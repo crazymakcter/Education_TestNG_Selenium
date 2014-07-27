@@ -1,5 +1,7 @@
 package testcases;
 
+import org.testng.annotations.Test;
+import org.testng.AssertJUnit;
 import org.testng.Assert;
 import org.testng.SkipException;
 import org.testng.annotations.Test;
@@ -17,9 +19,9 @@ public class UploadPicTest {
 		String actual="A";
 		
 		//Assertion in testing
-		Assert.assertEquals(actual, expected);
+		AssertJUnit.assertEquals(actual, expected);
 		//fail - condition - false
-		Assert.assertTrue(3>12, "Some error msg");
+		AssertJUnit.assertTrue(3>12, "Some error msg");
 		
 	}
 	}
