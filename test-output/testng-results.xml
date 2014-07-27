@@ -2,12 +2,12 @@
 <testng-results skipped="3" failed="1" total="4" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="My Sample Suite" duration-ms="43" started-at="2014-07-27T13:10:30Z" finished-at="2014-07-27T13:10:30Z">
+  <suite name="My Sample Suite" duration-ms="43" started-at="2014-07-27T15:52:12Z" finished-at="2014-07-27T15:52:12Z">
     <groups>
     </groups>
-    <test name="Sample Test Case" duration-ms="22" started-at="2014-07-27T13:10:30Z" finished-at="2014-07-27T13:10:30Z">
+    <test name="Sample Test Case" duration-ms="20" started-at="2014-07-27T15:52:12Z" finished-at="2014-07-27T15:52:12Z">
       <class name="testcases.SampleTest">
-        <test-method status="SKIP" signature="testCaseRegister()[pri:0, instance:testcases.SampleTest@1187984]" name="testCaseRegister" duration-ms="9" started-at="2014-07-27T16:10:30Z" finished-at="2014-07-27T16:10:30Z">
+        <test-method status="SKIP" signature="testCaseRegister()[pri:0, instance:testcases.SampleTest@1187984]" name="testCaseRegister" duration-ms="8" started-at="2014-07-27T18:52:12Z" finished-at="2014-07-27T18:52:12Z">
           <exception class="org.testng.SkipException">
             <message>
               <![CDATA[Skipping test - any reason]]>
@@ -45,30 +45,30 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCaseRegister -->
-        <test-method status="SKIP" signature="testCaseLoginTest()[pri:0, instance:testcases.SampleTest@1187984]" name="testCaseLoginTest" duration-ms="0" started-at="2014-07-27T16:10:30Z" depends-on-methods="testcases.SampleTest.testCaseRegister" finished-at="2014-07-27T16:10:30Z">
+        <test-method status="SKIP" signature="testCaseLoginTest()[pri:0, instance:testcases.SampleTest@1187984]" name="testCaseLoginTest" duration-ms="1" started-at="2014-07-27T18:52:12Z" depends-on-methods="testcases.SampleTest.testCaseRegister" finished-at="2014-07-27T18:52:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCaseLoginTest -->
-        <test-method status="SKIP" signature="testCasePasswordChange()[pri:0, instance:testcases.SampleTest@1187984]" name="testCasePasswordChange" duration-ms="0" started-at="2014-07-27T16:10:30Z" depends-on-methods="testcases.SampleTest.testCaseLoginTest, testcases.SampleTest.testCaseRegister" finished-at="2014-07-27T16:10:30Z">
+        <test-method status="SKIP" signature="testCasePasswordChange()[pri:0, instance:testcases.SampleTest@1187984]" name="testCasePasswordChange" duration-ms="0" started-at="2014-07-27T18:52:12Z" depends-on-methods="testcases.SampleTest.testCaseLoginTest, testcases.SampleTest.testCaseRegister" finished-at="2014-07-27T18:52:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCasePasswordChange -->
       </class> <!-- testcases.SampleTest -->
     </test> <!-- Sample Test Case -->
-    <test name="Uploading Pic" duration-ms="2" started-at="2014-07-27T13:10:30Z" finished-at="2014-07-27T13:10:30Z">
+    <test name="Uploading Pic" duration-ms="2" started-at="2014-07-27T15:52:12Z" finished-at="2014-07-27T15:52:12Z">
       <class name="testcases.UploadPicTest">
-        <test-method status="FAIL" signature="uploadPic()[pri:0, instance:testcases.UploadPicTest@1727596]" name="uploadPic" duration-ms="1" started-at="2014-07-27T16:10:30Z" finished-at="2014-07-27T16:10:30Z">
+        <test-method status="FAIL" signature="uploadPic()[pri:0, instance:testcases.UploadPicTest@1727596]" name="uploadPic" duration-ms="1" started-at="2014-07-27T18:52:12Z" finished-at="2014-07-27T18:52:12Z">
           <exception class="java.lang.Error">
             <message>
               <![CDATA[Unresolved compilation problem: 
-	Unreachable code
+	The method assertTrue(String, boolean) in the type AssertJUnit is not applicable for the arguments (boolean, String)
 ]]>
             </message>
             <full-stacktrace>
               <![CDATA[java.lang.Error: Unresolved compilation problem: 
-	Unreachable code
+	The method assertTrue(String, boolean) in the type AssertJUnit is not applicable for the arguments (boolean, String)
 
-	at testcases.UploadPicTest.uploadPic(UploadPicTest.java:16)
+	at testcases.UploadPicTest.uploadPic(UploadPicTest.java:24)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
